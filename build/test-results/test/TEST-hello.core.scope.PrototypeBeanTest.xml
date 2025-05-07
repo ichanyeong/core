@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="hello.core.scope.PrototypeBeanTest" tests="3" skipped="0" failures="0" errors="0" timestamp="2025-04-30T06:36:44.386Z" hostname="ichan-uui-MacBookAir.local" time="0.005">
+  <properties/>
+  <testcase name="prototypeBeanTest2()" classname="hello.core.scope.PrototypeBeanTest" time="0.002"/>
+  <testcase name="clientGetPrototypeBeanTest()" classname="hello.core.scope.PrototypeBeanTest" time="0.001"/>
+  <testcase name="prototypeBeanTest()" classname="hello.core.scope.PrototypeBeanTest" time="0.002"/>
+  <system-out><![CDATA[Prototype.Init
+Prototype.Init
+Prototype.Init
+find bean1
+Prototype.Init
+bean1 = hello.core.scope.PrototypeBeanTest$PrototypeBean@5d6b42cf
+find bean2
+Prototype.Init
+bean2 = hello.core.scope.PrototypeBeanTest$PrototypeBean@6f8ac8d5
+Prototype.destroy
+]]></system-out>
+  <system-err><![CDATA[]]></system-err>
+</testsuite>

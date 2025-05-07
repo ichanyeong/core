@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="hello.core.order.OrderServiceTest" tests="1" skipped="0" failures="0" errors="0" timestamp="2025-04-30T06:36:44.358Z" hostname="ichan-uui-MacBookAir.local" time="0.0">
+  <properties/>
+  <testcase name="createOrder()" classname="hello.core.order.OrderServiceTest" time="0.0"/>
+  <system-out><![CDATA[call AppConfig.memberService
+Calln AppConfig.memberRepository
+Call  AppConfig.orderService
+Calln AppConfig.memberRepository
+]]></system-out>
+  <system-err><![CDATA[]]></system-err>
+</testsuite>

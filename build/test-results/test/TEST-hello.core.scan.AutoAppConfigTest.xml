@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="hello.core.scan.AutoAppConfigTest" tests="2" skipped="0" failures="0" errors="0" timestamp="2025-04-30T06:36:44.359Z" hostname="ichan-uui-MacBookAir.local" time="0.022">
+  <properties/>
+  <testcase name="basicScan()" classname="hello.core.scan.AutoAppConfigTest" time="0.011"/>
+  <testcase name="basicScan1()" classname="hello.core.scan.AutoAppConfigTest" time="0.011"/>
+  <system-out><![CDATA[Prototype.Init
+SingleTon.init
+memberService = class hello.core.member.MemberServiceImpl
+memberRepository = hello.core.member.MemoryMemberRepository@32e830a0
+memberRepository1 = hello.core.member.MemoryMemberRepository@32e830a0
+Prototype.Init
+SingleTon.init
+beanDefinitionName = org.springframework.context.annotation.internalConfigurationAnnotationProcessor
+beanDefinitionName = org.springframework.context.annotation.internalAutowiredAnnotationProcessor
+beanDefinitionName = org.springframework.context.annotation.internalCommonAnnotationProcessor
+beanDefinitionName = org.springframework.context.event.internalEventListenerProcessor
+beanDefinitionName = org.springframework.context.event.internalEventListenerFactory
+beanDefinitionName = autoAppConfig
+beanDefinitionName = prototypeBeanTest.CilentBean
+beanDefinitionName = prototypeBeanTest.PrototypeBean
+beanDefinitionName = singleTonTest.SingleTonBean
+beanDefinitionName = scopedTarget.mylogger
+beanDefinitionName = mylogger
+beanDefinitionName = logDemoController
+beanDefinitionName = logDemoService
+beanDefinitionName = fixDiscountPolicy
+beanDefinitionName = rateDiscountPolicy
+beanDefinitionName = memberServiceImpl
+beanDefinitionName = memoryMemberRepository
+beanDefinitionName = orderServiceImp
+autoAppConfig = hello.core.AutoAppConfig@31ab4859
+]]></system-out>
+  <system-err><![CDATA[]]></system-err>
+</testsuite>

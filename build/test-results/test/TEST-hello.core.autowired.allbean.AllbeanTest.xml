@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="hello.core.autowired.allbean.AllbeanTest" tests="1" skipped="0" failures="0" errors="0" timestamp="2025-04-30T06:36:44.266Z" hostname="ichan-uui-MacBookAir.local" time="0.035">
+  <properties/>
+  <testcase name="findAllBean()" classname="hello.core.autowired.allbean.AllbeanTest" time="0.035"/>
+  <system-out><![CDATA[policyMap = {fixDiscountPolicy=hello.core.discount.FixDiscountPolicy@4492b393, rateDiscountPolicy=hello.core.discount.RateDiscountPolicy@55fb36de}
+policies = [hello.core.discount.FixDiscountPolicy@4492b393, hello.core.discount.RateDiscountPolicy@55fb36de]
+Prototype.Init
+SingleTon.init
+]]></system-out>
+  <system-err><![CDATA[]]></system-err>
+</testsuite>

@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="hello.core.singleton.ConfigurationSingleTonTest" tests="2" skipped="0" failures="0" errors="0" timestamp="2025-04-30T06:36:44.393Z" hostname="ichan-uui-MacBookAir.local" time="0.007">
+  <properties/>
+  <testcase name="ConfigurationTset()" classname="hello.core.singleton.ConfigurationSingleTonTest" time="0.003"/>
+  <testcase name="configurationTest()" classname="hello.core.singleton.ConfigurationSingleTonTest" time="0.003"/>
+  <system-out><![CDATA[call AppConfig.memberService
+Calln AppConfig.memberRepository
+Call  AppConfig.orderService
+appConfig = class hello.core.AppConfig$$SpringCGLIB$$0
+call AppConfig.memberService
+Calln AppConfig.memberRepository
+Call  AppConfig.orderService
+memberRepository1 = hello.core.member.MemoryMemberRepository@71139e77
+memberRepository = hello.core.member.MemoryMemberRepository@71139e77
+memberRepository = hello.core.member.MemoryMemberRepository@71139e77
+]]></system-out>
+  <system-err><![CDATA[]]></system-err>
+</testsuite>

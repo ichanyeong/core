@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="hello.core.beanfind.ApplicationContextTest" tests="2" skipped="0" failures="0" errors="0" timestamp="2025-04-30T06:36:44.347Z" hostname="ichan-uui-MacBookAir.local" time="0.004">
+  <properties/>
+  <testcase name="findApplicationBean()" classname="hello.core.beanfind.ApplicationContextTest" time="0.001"/>
+  <testcase name="모든 빈 출력하기" classname="hello.core.beanfind.ApplicationContextTest" time="0.001"/>
+  <system-out><![CDATA[call AppConfig.memberService
+Calln AppConfig.memberRepository
+Call  AppConfig.orderService
+beanDefinition = Root bean: class=org.springframework.context.annotation.ConfigurationClassPostProcessor; scope=; abstract=false; lazyInit=null; autowireMode=0; dependencyCheck=0; autowireCandidate=true; primary=false; fallback=false; factoryBeanName=null; factoryMethodName=null; initMethodNames=null; destroyMethodNames=null
+beanDefinition = Root bean: class=org.springframework.beans.factory.annotation.AutowiredAnnotationBeanPostProcessor; scope=; abstract=false; lazyInit=null; autowireMode=0; dependencyCheck=0; autowireCandidate=true; primary=false; fallback=false; factoryBeanName=null; factoryMethodName=null; initMethodNames=null; destroyMethodNames=null
+beanDefinition = Root bean: class=org.springframework.context.annotation.CommonAnnotationBeanPostProcessor; scope=; abstract=false; lazyInit=null; autowireMode=0; dependencyCheck=0; autowireCandidate=true; primary=false; fallback=false; factoryBeanName=null; factoryMethodName=null; initMethodNames=null; destroyMethodNames=null
+beanDefinition = Root bean: class=org.springframework.context.event.EventListenerMethodProcessor; scope=; abstract=false; lazyInit=null; autowireMode=0; dependencyCheck=0; autowireCandidate=true; primary=false; fallback=false; factoryBeanName=null; factoryMethodName=null; initMethodNames=null; destroyMethodNames=null
+beanDefinition = Root bean: class=org.springframework.context.event.DefaultEventListenerFactory; scope=; abstract=false; lazyInit=null; autowireMode=0; dependencyCheck=0; autowireCandidate=true; primary=false; fallback=false; factoryBeanName=null; factoryMethodName=null; initMethodNames=null; destroyMethodNames=null
+beanDefinition = Generic bean: class=hello.core.AppConfig$$SpringCGLIB$$0; scope=singleton; abstract=false; lazyInit=null; autowireMode=0; dependencyCheck=0; autowireCandidate=true; primary=false; fallback=false; factoryBeanName=null; factoryMethodName=null; initMethodNames=null; destroyMethodNames=null
+beanDefinition = Root bean: class=null; scope=; abstract=false; lazyInit=null; autowireMode=3; dependencyCheck=0; autowireCandidate=true; primary=false; fallback=false; factoryBeanName=appConfig; factoryMethodName=memberService; initMethodNames=null; destroyMethodNames=[(inferred)]; defined in hello.core.AppConfig
+beanDefinition = Root bean: class=null; scope=; abstract=false; lazyInit=null; autowireMode=3; dependencyCheck=0; autowireCandidate=true; primary=false; fallback=false; factoryBeanName=appConfig; factoryMethodName=memberRepository; initMethodNames=null; destroyMethodNames=[(inferred)]; defined in hello.core.AppConfig
+beanDefinition = Root bean: class=null; scope=; abstract=false; lazyInit=null; autowireMode=3; dependencyCheck=0; autowireCandidate=true; primary=false; fallback=false; factoryBeanName=appConfig; factoryMethodName=orderService; initMethodNames=null; destroyMethodNames=[(inferred)]; defined in hello.core.AppConfig
+beanDefinition = Root bean: class=null; scope=; abstract=false; lazyInit=null; autowireMode=3; dependencyCheck=0; autowireCandidate=true; primary=false; fallback=false; factoryBeanName=appConfig; factoryMethodName=discountPolicy; initMethodNames=null; destroyMethodNames=[(inferred)]; defined in hello.core.AppConfig
+call AppConfig.memberService
+Calln AppConfig.memberRepository
+Call  AppConfig.orderService
+bean = org.springframework.context.annotation.ConfigurationClassPostProcessor@1edf71d9
+bean = org.springframework.beans.factory.annotation.AutowiredAnnotationBeanPostProcessor@52d9d817
+bean = org.springframework.context.annotation.CommonAnnotationBeanPostProcessor@131ba005
+bean = org.springframework.context.event.EventListenerMethodProcessor@7f305f34
+bean = org.springframework.context.event.DefaultEventListenerFactory@1a84a8b2
+bean = hello.core.AppConfig$$SpringCGLIB$$0@601d295
+bean = hello.core.member.MemberServiceImpl@485451d8
+bean = hello.core.member.MemoryMemberRepository@35e07e19
+bean = hello.core.order.OrderServiceImp@a1e912f
+bean = hello.core.discount.RateDiscountPolicy@2036f83
+]]></system-out>
+  <system-err><![CDATA[]]></system-err>
+</testsuite>

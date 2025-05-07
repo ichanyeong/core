@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="hello.core.lifecycle.LifeCycleTest" tests="1" skipped="0" failures="0" errors="0" timestamp="2025-04-30T06:36:44.352Z" hostname="ichan-uui-MacBookAir.local" time="0.003">
+  <properties/>
+  <testcase name="lifeCycleTest1()" classname="hello.core.lifecycle.LifeCycleTest" time="0.003"/>
+  <system-out><![CDATA[NetworkClient.class
+connect:null
+초기화 연결 메세지
+NetworkClient!.close
+destroy:spring-boot-url
+]]></system-out>
+  <system-err><![CDATA[]]></system-err>
+</testsuite>

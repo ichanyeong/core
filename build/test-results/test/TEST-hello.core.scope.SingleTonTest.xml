@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="hello.core.scope.SingleTonTest" tests="1" skipped="0" failures="0" errors="0" timestamp="2025-04-30T06:36:44.391Z" hostname="ichan-uui-MacBookAir.local" time="0.002">
+  <properties/>
+  <testcase name="singleTonBeanTst()" classname="hello.core.scope.SingleTonTest" time="0.002"/>
+  <system-out><![CDATA[SingleTon.init
+SingleTon.destroy
+]]></system-out>
+  <system-err><![CDATA[]]></system-err>
+</testsuite>

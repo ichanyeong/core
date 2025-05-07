@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="hello.core.scan.filter.ComponentFilterAppConfigTest" tests="1" skipped="0" failures="0" errors="0" timestamp="2025-04-30T06:36:44.382Z" hostname="ichan-uui-MacBookAir.local" time="0.003">
+  <properties/>
+  <testcase name="filterConfig()" classname="hello.core.scan.filter.ComponentFilterAppConfigTest" time="0.003"/>
+  <system-out><![CDATA[beanA = hello.core.scan.filter.BeanA@5871a482
+]]></system-out>
+  <system-err><![CDATA[]]></system-err>
+</testsuite>

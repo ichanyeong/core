@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="hello.core.beanfind.ApplicationContextBasicSameFind" tests="2" skipped="0" failures="0" errors="0" timestamp="2025-04-30T06:36:44.318Z" hostname="ichan-uui-MacBookAir.local" time="0.007">
+  <properties/>
+  <testcase name="findBeanByTypeDu()" classname="hello.core.beanfind.ApplicationContextBasicSameFind" time="0.002"/>
+  <testcase name="findByAllBeanType()" classname="hello.core.beanfind.ApplicationContextBasicSameFind" time="0.003"/>
+  <system-out><![CDATA[key = memberRepository1
+key = memberRepository2
+memberRepository1 = hello.core.member.MemoryMemberRepository@121ddca4
+memberRepository1 = hello.core.member.MemoryMemberRepository@297bd171
+memberRepositoryMap = {memberRepository1=hello.core.member.MemoryMemberRepository@121ddca4, memberRepository2=hello.core.member.MemoryMemberRepository@297bd171}
+call AppConfig.memberService
+Calln AppConfig.memberRepository
+Call  AppConfig.orderService
+bean = hello.core.member.MemberServiceImpl@6e46891d
+]]></system-out>
+  <system-err><![CDATA[]]></system-err>
+</testsuite>
